@@ -1,0 +1,74 @@
+body{
+    background-image: url("assets/bg-image.jpg");
+}
+.main-page {
+    background-image:url("assets/homePage-bg-Image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500%;
+}
+.navBar{
+    padding-left: 25px;
+    margin-left: 50px;
+}
+.navBarIcon{
+    display: inline-block;
+    font-size: 22px;
+    padding: 50px;
+    font-weight: 100;
+}
+.navBarIcon a{
+    color: rgb(84, 132, 184);
+    transition: transform 0.3s ease;
+}
+.navBarIcon a[href="registerPage.html"]{
+    background-color: rgb(15, 36, 59);
+    padding: 10px 20px;
+    transition: transform 0.3s ease;
+}
+.navBarIcon a:hover{
+    transform: scale(1.2);
+}
+
+.about-section{
+    background-image: url("assets/homePage-bg-Image2.jpg");
+}
+.sub-about-section{
+    font-size: 500%;
+    padding-top: 100px;
+    padding-left: 150px;
+    color: bisque;
+}
+.sub-about-section2{
+    font-size: 150%;
+    padding-left: 150px;
+    padding-top: 20px;
+    padding-right: 50%;
+    padding-bottom: 10%;
+
+}
+.front-page{
+    font-size: 1000%;
+    color: antiquewhite;
+    padding-left: 20px;
+}
+
+/* footer section */
+.footer-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+}
+
+.sub-footer-section {
+    text-align: center;
+}
+
+.social-icons i {
+    font-size: 40px;
+    margin-right: 5px;
+    color: #fff;
+}
