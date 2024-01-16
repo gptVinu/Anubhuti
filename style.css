@@ -1,8 +1,8 @@
 body{
-    background-image: url("assets/bg-image.jpg");
+    background-image: url("bg-image.jpg");
 }
 .main-page {
-    background-image:url("assets/homePage-bg-Image.jpg");
+    background-image:url("homePage-bg-Image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 500%;
@@ -31,7 +31,7 @@ body{
 }
 
 .about-section{
-    background-image: url("assets/homePage-bg-Image2.jpg");
+    background-image: url("homePage-bg-Image2.jpg");
 }
 .sub-about-section{
     font-size: 500%;
